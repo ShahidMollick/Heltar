@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: radial-gradient(40.16% 41.68% at 53.65% 5.33%, #1E5177 0%, #000 100%);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* width: 1440px; */
+    position: relative;
+}
+.contentBody{
+    color: white;
+    padding: 30px 210px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    align-content: center;
+    /* height: 100%; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo img{
+    width: 68.677px;
+    height: 31px;
+}
+.right button {
+    appearance: none;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    text-decoration: none;
+    border: 0.2px solid #37A6F7;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(55, 166, 247, 0.20) 0%, rgba(32, 97, 145, 0.20) 100%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.right button:hover {
+    border: 0.2px solid #37A6F7;
+    background: linear-gradient(-90deg, rgba(63, 170, 247, 0.2) 0%, rgba(32, 97, 145, 0.20) 100%);
+    transition: background 0.8s ease-in-out, border 0.5s ease-in-out;
+}
+
+.right button a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    margin-top: 8%;
+}
+.contentText h1{
+    text-align: center;
+    font-size:56px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.754);
+}
+.contentText h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ababaf
+}
+.contentCta{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contentCta button{
+    font-size: 18px;
+    color: white;
+    appearance: none;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    text-decoration: none;
+    border: 0.2px solid #37A6F7;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(55, 166, 247, 0.20) 0%, rgba(32, 97, 145, 0.20) 100%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.contentCta span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.heroImage{
+    position: absolute;
+    bottom:1%;
+    scale: 110%;
+}
+.heroImage2 {
+    position: absolute;
+    bottom: 60px;
+    right: -40px;
+    z-index: 1; /* Add this line to ensure it appears above other elements */
+    scale: 0.8;
+}
